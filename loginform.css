@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.login-card {
+    background-color: #ffffff;
+   border-radius: 20px;
+    padding: 40px;
+    box-shadow: 10px 10px 20px rgba(40, 40, 40, 0.7), -5px -5px 15px rgba(255, 255, 255, 0.1); /* 3D neumorphism effect */
+    width: 400px;
+    filter: brightness(0.9);
+
+}
+
+.login-card h3 {
+    color: #080808; /* Bright orange color for title */
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.input-field {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #0c0a0a;
+    border-radius: 5px;
+    color: #232222;
+    font-size: 10px;
+}
+
+.input-field:focus {
+    outline: none;
+    border: 1px solid #fdfcfa; /* Highlighted border */
+    box-shadow: 0 0 5px #e5e5e4;
+}
+
+.btn-login,
+.btn-SignUp{
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    border:none;
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 30px; /* Rounded button */
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out,  ease-in-out;
+}
+
+.btn-login:hover,
+.btn-SignUp:hover{
+    transform: scale(1.05);
+    background-color: #464444;
+    color: #ffffff;
+
+    
+}
+
+.form-text {
+    color: #6f6d6d; /* Light grey text */
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-text a {
+    color: #0e0e0e;
+    text-decoration: none;
+    font-size: 10px;
+
+}
+
+.form-text a:hover {
+    text-decoration: underline;
+}
+.login-card label {
+    font-size: 12px; /* Reduce the label size */
+    font-family:Arial, Helvetica, sans-serif;
+}
+.login-card input {
+    font-size: 12px; /* Reduce the input text size */
+    color: #a09e9e;
+}

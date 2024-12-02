@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assests/css/bootstrap.min.css">
+    <link rel="stylesheet" href="select.css">
+    
+</head>
+<body>
+
+    <!-- Full-screen container with original dark background -->
+    <div class="full-screen-container bg-dark text-white p-2">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container">
+                    <!-- Logo -->
+                    <a href="" class="navbar-brand">
+                        <img src="radiWhite.jpg" width="50" height="50" alt="" loading="lazy" class="d-inline-block rounded-circle">
+                        RADI TECH
+                    </a>
+
+                    <!-- Buttons for Login and Signup -->
+                    <div class="d-flex ms-auto"id="button">
+                        <button class="btn btn-secondary hover-button me-2 js-b1 " id="login-button">Login</button>
+                        <button class="btn btn-light hover-button " id="signup-button">Signup</button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Content Section -->
+        <div class="content mt-5">
+            <h1 class="display-4">Welcome Radi Tech</h1>
+            <p id="paragraph" class="lead py-4 mt-3">
+                Empowering Innovation
+            </p>
+            <hr class="my-3 mt-3" id="explore ">
+            <p class="size mt-4">"It Uses Utility Classes For Typography And Spacing To Space Content Out Within The Larger Container".</p>
+            <a class="btn btn-secondary hover-button btn-smaller btn-lg mt-3" href="#" id="explore" role="button">Explore</a>
+        </div>
+
+        <!-- Scroll down arrow -->
+        <div class="scroll-down">
+            <span>&#8595;</span> <!-- Down arrow symbol -->
+        </div>
+    </div>
+
+    <!-- Section with background image -->
+    <section class="back ">
+        <div class="heading">OUR SERVICES</div>
+        <div class="card-container">
+         
+         <div class="card "  id="card1">
+             <img src="images/img1.jpg" alt="Card 1 Image">
+             <h3 class="heading3">FULL STACK WEB DEVELOPEMENT</h3>
+             <p class="para">"End-to-end development tailored to bring your ideas to life."</p>
+           </div>
+           <div class="card" id="card2">
+             <img src="images/img2.jpg" alt="Card 2 Image">
+             <h3 class="heading3">FRONT END DEVELOPEMENT</h3>
+             <p class="para">"Creating visually stunning interfaces that captivate and engage users."</p>
+           </div>
+           <div class="card" id="card3">
+             <img src="images/img3.jpg " alt="Card 3 Image">
+             <h3 class="heading3">BACK END DEVELOPEMENT</h3>
+             <p class="para">"Powering your applications with robust, scalable, and secure back-end solutions."</p>
+           </div>
+       
+         </div>
+       
+       
+       
+         <script>
+            document.getElementById('card1').addEventListener('click', function() {
+                window.location.href = 'webfull.html'; // Redirect to the webfull.html page
+            });
+            document.getElementById('card2').addEventListener('click', function() {
+                window.location.href = 'frontend.html'; // Redirect to the webfull.html page
+            });
+            document.getElementById('card3').addEventListener('click', function() {
+                window.location.href = 'backend.html'; // Redirect to the webfull.html page
+            });
+            document.getElementById('login-button').addEventListener('click', function() {
+                window.location.href = 'loginform.html'; // Redirect to the webfull.html page
+            });
+            document.getElementById('signup-button').addEventListener('click', function() {
+                window.location.href = 'signup.html'; // Redirect to the webfull.html page
+            });
+        </script>
+
+
+    <script src="home.js"></script>
+    <script src="./assests/js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"
+            integrity="sha512-2rNj2KJ+D8s1ceNasTIex6z4HWyOnEYLVC3FigGOmyQCZc2eBXKgOxQmo3oKLHyfcj53uz4QMsRCWNbLd32Q1g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assests/js/bootstrap.min.js"></script>
+</body>
+</html>
